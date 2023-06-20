@@ -9,8 +9,6 @@
   "scripts": {
     "dev": "concurrently \"npm start\" \"npm run client\"",
     "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix ./client",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
   },
   "author": "shahriar Sajeeb",
